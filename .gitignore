@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Notebooks excluded from this repo
+BPusingGD.ipynb
+
+# Patch / temp scripts
+__patch_notebook.py
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db

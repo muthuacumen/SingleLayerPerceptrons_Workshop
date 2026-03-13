@@ -1,7 +1,14 @@
+# Python 3.12 is required — TensorFlow does not support Python 3.14+
+# To create a compatible virtual environment:
+#   py -3.12 -m venv .venv
+#   .venv\Scripts\activate
+#   pip install -r requirements.txt
+
 ipykernel==7.2.0
 matplotlib==3.10.8
 numpy==2.4.3
 pandas==3.0.1
 scikit-learn==1.8.0
 seaborn==0.13.2
+tensorflow
 torch==2.10.0
